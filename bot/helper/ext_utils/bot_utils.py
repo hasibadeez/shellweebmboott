@@ -170,11 +170,8 @@ T: {disk_t} | F: {disk_f}
 Working For: {currentTime}
 T-DL: {recv} | T-UL: {sent}
 
-Made with ❤️ by Dawn
+Made with ❤️ by Hasib
 """
-
-#----Thanks for deleting my name ❤️ Appreciate it----#
-#----------Remove this line too, who cares----------#
 
 dispatcher.add_handler(CallbackQueryHandler(pop_up_stats, pattern=f"^{str(THREE)}$"))
 
